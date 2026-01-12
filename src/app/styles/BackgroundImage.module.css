@@ -1,13 +1,13 @@
 .backgroundImage {
-  position: static;
+  position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background-image: url('/night-sky.webp');
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  background-position: var(--bg-pos, 0%) center;
+  background-size: cover;
+  background-position: center;
   z-index: -1;
   opacity: 0.45;
+  will-change: transform;
 }
