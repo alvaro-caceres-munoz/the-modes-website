@@ -11,7 +11,7 @@ export default function Custom404() {
         <SectionTitle>404 Page not found</SectionTitle>
         <Image
           className="md:w-[300px]"
-          src={"media/images/404-images/" + "404.jpg"}
+          src={"media/images/404-images/" + "404.webp"}
           width={250}
           height={250}
           placeholder="blur"

@@ -9,7 +9,7 @@ export default function TitleSection() {
           <SocialMediaIcons />
           <Image
             className="md:w-[600px]"
-            src={"media/images/artworks/"+"how-many-moons-cover.png"}
+            src={"media/images/artworks/"+"how-many-moons-cover.webp"}
             width={250}
             height={250}
             placeholder="blur"
