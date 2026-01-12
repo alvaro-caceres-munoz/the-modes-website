@@ -9,7 +9,7 @@ export default function Gallery({isFull=false, maxGalleryItems=5} : {isFull: boo
         (pic, index) =>{
           if (!isFull && index >= maxGalleryItems) return;
           else return (
-            <div key={index} className='aspect-square overflow-hidden'>
+            <div key={index} className='aspect-square overflow-hidden bg-neutral-900'>
               <Image
                 src={"media/images/gallery-pics/"+pic.src}
                 width={250}
